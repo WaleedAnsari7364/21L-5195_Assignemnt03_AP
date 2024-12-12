@@ -1,0 +1,94 @@
+.page {
+    --gray-rgb: 255, 255, 255;
+    --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+    --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+  
+    --button-primary-hover: #383838;
+    --button-secondary-hover: #f2f2f2;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 80px;
+    min-height: 100vh;
+    font-family: var(--font-geist-sans);
+    background-color: var(--gray-alpha-100);
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 50%;
+  }
+  
+  .bookCard {
+    background-color: #f9f9f9;
+    border: 1px solid var(--gray-alpha-200);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 16px 0;
+    text-align: center;
+  }
+  
+  .bookCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .bookTitle {
+    color: #555;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .bookPrice {
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .bookRating {
+    color: #555;
+    margin: 0;
+  }
+  
+  .genreButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 24px;
+    background-color: #0070f3;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .genreButton:hover {
+    background-color: #005bb5;
+  }
+
+  .ctas {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .genre_label {
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+  }
+  

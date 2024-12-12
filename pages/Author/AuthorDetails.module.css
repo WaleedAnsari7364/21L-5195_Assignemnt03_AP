@@ -1,0 +1,33 @@
+
+
+.page {
+    padding: 20px;
+  }
+ 
+  
+  .bookList {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .bookCard {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+  }
+  
+  .bookTitle {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .viewAuthor {
+    display: block;
+    margin-top: 10px;
+    color: #0070f3;
+    text-decoration: underline;
+  }
+  

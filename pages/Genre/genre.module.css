@@ -1,0 +1,99 @@
+.page {
+  --gray-rgb: 255, 255, 255;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+
+  display: grid;
+  grid-template-rows: 20px 1fr 20px;
+  align-items: center;
+  justify-items: center;
+  min-height: 100svh;
+  padding: 20px 80px;
+  font-family: var(--font-geist-sans);
+  background-color: var(--gray-alpha-100);
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  grid-row-start: 2;
+  width: 50%; 
+}
+
+
+.genreCard {
+  background-color: #f9f9f9;
+  border: 1px solid var(--gray-alpha-200);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.genreCardGenreBooks {
+  background-color: #f9f9f9;
+  border: 1px solid var(--gray-alpha-200);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 24px;
+}
+
+.genreCardGenreBooks:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.genreCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.genreTitle {
+  color: #555;
+  font-size: 1.5em;
+  margin: 0;
+}
+.genreId {
+  color: #555;
+  margin: 0;
+}
+.books{
+  color: #3b46e4;
+  margin: 0;
+}
+.books:hover{
+  color: #494d80;
+  margin: 0;
+}
+
+.bookTitle {
+  color: #555;
+  margin: 0;
+}
+
+.bookList{
+  list-style-type: none;
+}
+
+.genre_details_h1{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+  text-align: center;
+}
+

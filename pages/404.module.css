@@ -1,0 +1,35 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 400px auto;
+  
+}
+
+  .h1_404 {
+    font-size: 48px;
+    color: #ff4d4f;
+    margin: 5px;
+  }
+  
+  .p_404 {
+    font-size: 18px;
+    color: #333;
+    margin: 5px;
+  }
+  .link_404{
+    font-size: 16px;
+  color: #0070f3;
+  text-decoration: underline;
+  margin: 5px;
+  }
+  .link_404:hover {
+    color: #0056b3;
+    text-decoration: none;
+}

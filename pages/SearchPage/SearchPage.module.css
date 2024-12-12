@@ -1,0 +1,114 @@
+.page {
+    --gray-rgb: 255, 255, 255;
+    --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+    --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+    --border-color: rgba(0, 0, 0, 0.1);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 80px;
+    min-height: 100vh;
+    font-family: var(--font-geist-sans);
+    background-color: var(--gray-alpha-100);
+  }
+  
+  .searchContainer {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .inputField {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid var(--gray-alpha-200);
+    border-radius: 4px;
+    width: calc(100% - 130px);
+  }
+  
+  .searchButton {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0070f3;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .searchButton:hover {
+    background-color: #005bb5;
+  }
+  
+  .bookDetailsCard {
+    background-color: #f9f9f9;
+    border: 1px solid var(--gray-alpha-200);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 16px 0;
+    text-align: left;
+  }
+  
+  .bookTitle {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+  }
+  
+  .bookDescription, .bookPrice, .bookRating {
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .authorDetails, .genreDetails {
+    margin-top: 10px;
+    border-top: 1px solid var(--gray-alpha-200);
+    padding-top: 10px;
+    color: #555;
+  }
+  
+  .authorName, .genreName {
+    font-weight: bold;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .recentSearchesContainer {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .recentSearchesContainer h2 {
+    margin-bottom: 10px;
+  }
+  
+  .recentSearchesCard {
+    background-color: #f9f9f9;
+    border: 1px solid var(--gray-alpha-200);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 16px 0;
+    text-align: left;
+  }
+  
+  .book_details_h2{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    text-align: center;
+    color: #555;
+  }
+
+  .book_details_h2_rs{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    text-align: center;
+  }
